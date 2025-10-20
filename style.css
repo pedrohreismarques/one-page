@@ -1,0 +1,65 @@
+/**
+    Folha de estilo do site sublimegrace.com
+    @author Pedro Henrique
+    @link https://github.com/pedrohreismarques
+*/
+
+/* ------ LAYOUT ------ */
+
+/* ------ Variáveis ------ */
+:root {
+    --roxoForte: #7f46db;
+    --azulForte: #3416cc;
+    --roxoClaro: #c7abe4;
+    --azulClaro: #75baeb;
+    --azulZinho: #cbe5f7;
+}
+
+/* ------ css reset ------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", "BB H Sans Bogle&family";
+}
+
+/* ------ FIM DO LAYOUT ------ */
+
+/* ------ SMARTPHONE LANDSCAPE ------ */
+
+@media (min-width: 576px) {}
+
+/* ------ FIM DO SMARTPHONE LANDSCAPE ------ */
+
+/* ------ SMARTPHONE PORTRAIT ------ */
+
+@media (min-width: 768px) {}
+
+/* ------ FIM DO SMARTPHONE PORTRAIT ------ */
+
+/* ------ TABLET PORTRAIT ------ */
+
+@media (min-width: 768px) {}
+
+/* ------ FIM DO TABLET PORTRAIT ------ */
+
+/* ------ TABLET LANDSCAPE ------ */
+
+@media (min-width: 992px) {}
+
+/* ------ FIM DO TABLET LANDSCAPE ------ */
+
+/* ------ NOTEBOOK / PC > HD ------ */
+
+@media (min-width: 1200px) {}
+
+/* ------ FIM DO NOTEBOOK / PC > HD ------ */
+
+/* ------ NOTEBOOK / PC & TV > FULL HD ou 4K ------ */
+
+@media (min-width: 1400px) {}
+
+/* ------ FIM DO NOTEBOOK / PC & TV > FULL HD ou 4K ------ */
