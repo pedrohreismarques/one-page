@@ -6,7 +6,7 @@
 
 /* ------ LAYOUT ------ */
 
-/* ------ Variáveis ------ */
+/* ------ VARIÁVEIS ------ */
 :root {
     --roxoForte: #7f46db;
     --azulForte: #3416cc;
@@ -15,51 +15,254 @@
     --azulZinho: #cbe5f7;
 }
 
-/* ------ css reset ------ */
+/* ------ CSS RESET ------ */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Open Sans", "BB H Sans Bogle&family";
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+
+.layout {
+    margin: auto;
+}
+
+/* BOTÃO */
+.btn {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: var(--roxoForte);
+    padding: 25px 45px;
+    border-radius: 25px;
 }
 
 /* ------ FIM DO LAYOUT ------ */
 
 /* ------ SMARTPHONE LANDSCAPE ------ */
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+
+    /* LAYOUT */
+    .container {
+        max-width: 540px;
+    }
+
+    /* CABEÇALHO */
+
+    nav ul {
+        width: 35%;
+        right: -35%;
+        transition: all 0.5s;
+    }
+
+
+}
 
 /* ------ FIM DO SMARTPHONE LANDSCAPE ------ */
 
 /* ------ SMARTPHONE PORTRAIT ------ */
+header {
+    height: 80px;
+    background-color: var(--roxoForte)
+}
 
-@media (min-width: 768px) {}
+.logo img {
+    width: 150px;
+    height: 150px;
+
+}
+
+#check {
+    display: none;
+    /*sempre que quiser remover alguma coisa */
+}
+
+label {
+    font-size: 3rem;
+    color: var(--roxoClaro);
+    position: fixed;
+    top: 5px;
+    right: 30px;
+}
+
+nav ul {
+    list-style: none;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    background-color: var(--roxoForte);
+    width: 65%;
+    right: -65%;
+    transition: all 0.5s;
+}
+
+/* Ação para uma caixa check*/
+/*Quando selecionado mudar ul */
+#check:checked~ul {
+    right: 0px;
+    /*background-color:  var(--marron); /*Mudar o ul total*/
+}
+
+nav ul li {
+    padding: 15px;
+    border-bottom: 1px solid var(--roxoClaro);
+    text-align: right;
+}
+
+nav ul li a {
+    /*Remover o sublinhado do texto*/
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+/* PRINCIPAL */
+main {
+    height: 55vh;
+    background: url(img/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+main .container {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    color: white;
+    font-family: Sans-Serif;
+    margin-bottom: 10px;
+}
+
+main h2 {
+    color: white;
+    font-size: 1.0rem;
+    margin-bottom: 50px;
+}
 
 /* ------ FIM DO SMARTPHONE PORTRAIT ------ */
 
 /* ------ TABLET PORTRAIT ------ */
+@media (min-width: 768px) {
 
-@media (min-width: 768px) {}
+    /* LAYOUT */
+    .container {
+        max-width: 720px;
+    }
+
+        /* PRINCIPAL */
+    main h1 {
+        font-size: 4rem;
+    }
+
+    main h2 {
+        font-size: 1.5rem;
+    }
+
+}
 
 /* ------ FIM DO TABLET PORTRAIT ------ */
 
 /* ------ TABLET LANDSCAPE ------ */
 
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+    /* LAYOUT */
+    .container {
+        max-width: 960px;
+    }
+
+    /* PRINCIPAL */
+    main {
+        height: 80vh;
+    }
+
+}
 
 /* ------ FIM DO TABLET LANDSCAPE ------ */
 
 /* ------ NOTEBOOK / PC > HD ------ */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+    /* LAYOUT */
+    .container {
+        justify-content: space-between;
+        max-width: 1140px;
+    }
+
+    /* CABEÇALHO */
+    header {
+        height: 100px;
+
+    }
+
+    .logo img {
+        width: 200px;
+        height: 200px;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 23px;
+    }
+
+    nav ul li {
+        float: left;
+        border: 0;
+    }
+
+    nav ul li a:hover {
+        color: var(--roxoClaro);
+
+    }
+
+    /* PRINCIPAL */
+    main {
+        height: 85vh;
+    }
+}
 
 /* ------ FIM DO NOTEBOOK / PC > HD ------ */
 
 /* ------ NOTEBOOK / PC & TV > FULL HD ou 4K ------ */
+@media (min-width: 1400px) {
 
-@media (min-width: 1400px) {}
+    /* LAYOUT */
+    .container {
+        max-width: 1340px;
+    }
+
+    /* PRINCIPAL */
+    main h1 {
+        font-size: 6rem;
+    }
+
+    main h2 {
+        font-size: 2rem;
+    }
+
+}
 
 /* ------ FIM DO NOTEBOOK / PC & TV > FULL HD ou 4K ------ */
