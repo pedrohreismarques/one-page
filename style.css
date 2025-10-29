@@ -38,13 +38,20 @@ body {
 /* BOTÃO */
 .btn {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: white;
     background-color: var(--roxoForte);
-    padding: 25px 45px;
+    padding: 20px 40px;
     border-radius: 25px;
+    transition: color 0.5s ease; 
 }
+
+.btn:hover {
+    color: var(--roxoClaro); 
+}
+
+
 
 /* ------ FIM DO LAYOUT ------ */
 
@@ -110,7 +117,6 @@ nav ul {
 /*Quando selecionado mudar ul */
 #check:checked~ul {
     right: 0px;
-    /*background-color:  var(--marron); /*Mudar o ul total*/
 }
 
 nav ul li {
@@ -123,6 +129,7 @@ nav ul li a {
     /*Remover o sublinhado do texto*/
     text-decoration: none;
     color: rgb(255, 255, 255);
+    transition: color 0.5s ease;
 
 }
 
@@ -146,12 +153,22 @@ main h1 {
     color: white;
     font-family: Sans-Serif;
     margin-bottom: 10px;
+    text-shadow: 
+    0 0 20px #7f46db,
+    0 0 20px #7f46db,
+    0 0 20px #7f46db,
+    0 0 20px #7f46db;
 }
 
 main h2 {
     color: white;
     font-size: 1.0rem;
     margin-bottom: 50px;
+    text-shadow: 
+    0 0 20px #7f46db,
+    0 0 20px #7f46db,
+    0 0 20px #7f46db,
+    0 0 20px #7f46db;
 }
 
 /* ------ FIM DO SMARTPHONE PORTRAIT ------ */
