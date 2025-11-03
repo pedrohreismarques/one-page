@@ -172,11 +172,19 @@ main h1 {
     color: white;
     font-family: Sans-Serif;
     margin-bottom: 10px;
+<<<<<<< HEAD
     text-shadow:
         0 0 18px #7f46db,
         0 0 18px #7f46db,
         0 0 18px #7f46db,
         0 0 18px #7f46db;
+=======
+    text-shadow: 
+    0 0 25px #7f46db,
+    0 0 25px #7f46db,
+    0 0 25px #7f46db,
+    0 0 25px #7f46db; 
+>>>>>>> b89f63498788f2a01918a341efd6e789700d7f55
 }
 
 main h2 {
