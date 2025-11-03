@@ -154,10 +154,10 @@ main h1 {
     font-family: Sans-Serif;
     margin-bottom: 10px;
     text-shadow: 
-    0 0 20px #7f46db,
-    0 0 20px #7f46db,
-    0 0 20px #7f46db,
-    0 0 20px #7f46db;
+    0 0 25px #7f46db,
+    0 0 25px #7f46db,
+    0 0 25px #7f46db,
+    0 0 25px #7f46db; 
 }
 
 main h2 {
@@ -165,10 +165,10 @@ main h2 {
     font-size: 1.0rem;
     margin-bottom: 50px;
     text-shadow: 
-    0 0 20px #7f46db,
-    0 0 20px #7f46db,
-    0 0 20px #7f46db,
-    0 0 20px #7f46db;
+    0 0 25px #7f46db,
+    0 0 25px #7f46db,
+    0 0 25px #7f46db,
+    0 0 25px #7f46db;
 }
 
 /* ------ FIM DO SMARTPHONE PORTRAIT ------ */
