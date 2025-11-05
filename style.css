@@ -189,11 +189,9 @@ main h2 {
         0 0 18px #7f46db,
         0 0 18px #7f46db;
 
-    /* DESTAQUE */
-    #destaque .container {
-        flex-direction: column;
-    }
 }
+
+/* DESTAQUE */
 #destaque {
         padding: 50px 10px;
         background: url(./img/parallax.png);
@@ -201,23 +199,26 @@ main h2 {
         background-position: center;
     }
 
-#hero {
-    text-align: center;
+#destaque .container {
+    flex-direction: column;
+    display: flex;
 }
 
 #hero img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     margin-bottom: 25px;
 }
 
 .hero-text h2 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color: white;
     margin-bottom: 15px;
+    text-shadow: 0 0 10px var(--roxoForte), 0 0 10px var(--roxoForte), 0 0 10px var(--roxoForte), 0 0 10px var(--roxoForte);
 }
 
 .hero-text p {
+    font-size: 1.0rem;
     color: white;
 }
 
@@ -233,6 +234,44 @@ main h2 {
     margin-left: 15px;
 }
 
+.text {
+    margin-top: 20px;
+}
+
+/* CATÁLOGO */
+#catalogo {
+    padding: 50px 10px;
+    background: var(--roxoForte);
+    background-size: cover;
+    background-position: center;
+}
+
+#catalogo .container {
+    flex-direction: column;
+    display: flex;
+}
+
+.catalogo-text h2 {
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 20px;
+    text-shadow:
+        0 0 10px var(--azulClaro),
+        0 0 10px var(--azulClaro),
+        0 0 10px var(--azulClaro),
+        0 0 10px var(--azulClaro);
+}
+
+.catalogo-text p {
+    font-size: 1.0rem;
+    color: white;
+}
+
+#youtube iframe {
+    margin: 30px;
+    width: 300px;
+    height: 150px;
+}
 
 /* ------ FIM DO SMARTPHONE PORTRAIT ------ */
 
