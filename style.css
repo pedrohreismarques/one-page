@@ -265,11 +265,13 @@ main h2 {
 .catalogo-text p {
     font-size: 1.0rem;
     color: white;
+    width: 280px;
+    height: 80px;
 }
 
 #youtube iframe {
     margin: 30px;
-    width: 300px;
+    width: 280px;
     height: 150px;
 }
 
