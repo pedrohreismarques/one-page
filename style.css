@@ -193,11 +193,11 @@ main h2 {
 
 /* DESTAQUE */
 #destaque {
-        padding: 50px 10px;
-        background: url(./img/parallax.png);
-        background-size: cover;
-        background-position: center;
-    }
+    padding: 50px 10px;
+    background: url(./img/parallax.png);
+    background-size: cover;
+    background-position: center;
+}
 
 #destaque .container {
     flex-direction: column;
@@ -250,7 +250,7 @@ main h2 {
 }
 
 .catalogo-text h2 {
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     color: white;
     margin-bottom: 30px;
     text-shadow:
@@ -261,7 +261,7 @@ main h2 {
 }
 
 .catalogo-text p {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     color: white;
 
 }
@@ -378,7 +378,11 @@ main h2 {
     .topic {
         display: flex;
     }
+
+    /* CATÁLOGO */
+    
 }
+
 
 /* ------ FIM DO NOTEBOOK / PC > HD ------ */
 
