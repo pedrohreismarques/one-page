@@ -8,35 +8,46 @@
 
 /* ------ VARIÁVEIS ------ */
 :root {
+
     --roxoForte: #7f46db;
     --azulForte: #3416cc;
     --roxoClaro: #c7abe4;
     --azulClaro: #75baeb;
     --azulZinho: #cbe5f7;
+
 }
 
 /* ------ CSS RESET ------ */
 * {
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
+
     font-family: "Open Sans", "BB H Sans Bogle&family";
+
 }
 
 .container {
+
     display: flex;
     margin: 0 auto;
+
 }
 
 .layout {
+
     margin: auto;
+
 }
 
 /* BOTÃO */
 .btn {
+
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
@@ -45,10 +56,13 @@ body {
     padding: 28px 40px;
     border-radius: 25px;
     transition: color 0.5s ease;
+
 }
 
 .btn:hover {
+
     color: var(--azulClaro);
+
 }
 
 /* ------ FIM DO LAYOUT ------ */
@@ -59,69 +73,91 @@ body {
 
     /* LAYOUT */
     .container {
+
         max-width: 540px;
+
     }
 
     /* CABEÇALHO */
     nav ul {
+
         width: 35%;
         right: -35%;
         transition: all 0.5s;
+
     }
 
 }
 
 /* DESTAQUE */
 #detaque {
+
     padding: 50px 0px;
+
 }
 
 #destaque .container {
+
     flex-direction: row;
     align-items: center;
+
 }
 
 #hero {
+
     text-align: left;
+
 }
 
 #hero img {
+
     width: 200px;
     height: 200px;
     margin: 0px 30px 0px 0px;
+
 }
 
 .topic {
+
     margin-top: 20px;
+
 }
 
 /* ------ FIM DO SMARTPHONE LANDSCAPE ------ */
 
 /* ------ SMARTPHONE PORTRAIT ------ */
 header {
+
     height: 80px;
     background-color: var(--roxoForte)
 }
 
 .logo img {
+
     width: 150px;
     height: 150px;
     margin-left: 20px;
+
 }
 
 #check {
+
     display: none;
+
 }
 
 label {
+
     font-size: 3rem;
     color: var(--roxoClaro);
     position: fixed;
     top: 5px;
     right: 30px;
+
 }
 
 nav ul {
+
     list-style: none;
     height: 100vh;
     position: fixed;
@@ -130,21 +166,26 @@ nav ul {
     width: 65%;
     right: -65%;
     transition: all 0.5s;
+
 }
 
 /* Ação para uma caixa check */
 /* Quando selecionado mudar ulr */
 #check:checked~ul {
+
     right: 0px;
 }
 
 nav ul li {
+
     padding: 15px;
     border-bottom: 3px solid var(--azulClaro);
     text-align: right;
+
 }
 
 nav ul li a {
+
     /* Remover o sublinhado do texto */
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -154,21 +195,26 @@ nav ul li a {
 
 /* PRINCIPAL */
 main {
+
     height: 100vh;
     background: url(img/banner.png);
     background-size: cover;
     background-position: center;
+
 }
 
 main .container {
+
     height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 
 main h1 {
+
     color: white;
     font-family: Sans-Serif;
     margin-bottom: 10px;
@@ -177,9 +223,11 @@ main h1 {
         0 0 18px #7f46db,
         0 0 18px #7f46db,
         0 0 18px #7f46db;
+
 }
 
 main h2 {
+
     color: white;
     font-size: 1.0rem;
     margin-bottom: 50px;
@@ -193,63 +241,84 @@ main h2 {
 
 /* DESTAQUE */
 #destaque {
+
     padding: 50px 10px;
     background: url(./img/parallax.png);
     background-size: cover;
     background-position: center;
+
 }
 
 #destaque .container {
+
     flex-direction: column;
     display: flex;
+
 }
 
 #hero img {
+
     width: 250px;
     height: 250px;
     margin-bottom: 25px;
+
 }
 
 .hero-text h2 {
+
     font-size: 2.0rem;
     color: white;
     margin-bottom: 15px;
     text-shadow: 0 0 10px var(--roxoForte), 0 0 10px var(--roxoForte), 0 0 10px var(--roxoForte), 0 0 10px var(--roxoForte);
+
 }
 
 .hero-text p {
+
     font-size: 1.2rem;
     color: white;
     margin-top: 15px;
+
 }
 
 .topic {
+
     display: flex;
+
 }
 
 .topic p {
+
     display: flex;
     margin-left: 15px;
+
 }
 
 .text {
+
     margin-top: 30px;
+
 }
 
-/* CATÁLOGO */
-#catalogo {
+/* EVENTO */
+#evento {
+
     padding: 50px 10px;
     background: var(--roxoForte);
     background-size: cover;
     background-position: center;
+
 }
 
-#catalogo .container {
+#evento .container {
+
     flex-direction: column;
     display: flex;
+
 }
 
-.catalogo-text h2 {
+.evento-text h2 {
+
     font-size: 2.0rem;
     color: white;
     margin-bottom: 30px;
@@ -258,9 +327,11 @@ main h2 {
         0 0 10px var(--azulClaro),
         0 0 10px var(--azulClaro),
         0 0 10px var(--azulClaro);
+
 }
 
-.catalogo-text p {
+.evento-text p {
+
     font-size: 1.2rem;
     color: white;
 
@@ -271,6 +342,65 @@ main h2 {
     margin-left: 25px;
     width: 300px;
     height: 150px;
+
+}
+
+/* CARD */
+#produtos {
+
+    padding: 50px 0px;
+    background-color: var(--roxoForte);
+}
+
+#produtos .container {
+
+    flex-direction: column;
+    text-align: center;
+    color: white;
+
+}
+
+/* Cartão */
+.card {
+
+    width: 337px;
+    height: 500px;
+    background-color: var(--azulClaro);
+    margin-top: 30px;
+    border-radius: 25px;
+
+}
+
+.card img {
+
+    margin-top: 30px;
+    border-radius: 30px 30px 30px 30px;
+
+}
+
+.card h2 {
+
+    font-size: 1.6rem;
+    margin: 15px 0px;
+    text-shadow:
+        0 0 15px var(--roxoForte),
+        0 0 15px var(--roxoForte),
+        0 0 15px var(--roxoForte),
+        0 0 15px var(--roxoForte);
+
+}
+
+.card p {
+
+    font-size: 1.1rem;
+    padding: 0px 10px 30px 10px;
+
+}
+
+#produtos .card .btn {
+
+    padding: 18px 16px;
+
 }
 
 /* ------ FIM DO SMARTPHONE PORTRAIT ------ */
@@ -380,7 +510,7 @@ main h2 {
     }
 
     /* CATÁLOGO */
-    
+
 }
 
 
