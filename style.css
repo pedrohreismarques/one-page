@@ -490,25 +490,35 @@ main h2 {
 
     /* PRINCIPAL */
     main {
+
         height: 85vh;
+
     }
 
     /* DESTAQUE */
     #destaque {
+
         background-attachment: fixed;
+
     }
 
     #hero img {
+
         width: 400px;
         height: 400px;
+        
     }
 
     .hero-text h2 {
+
         font-size: 2rem;
+
     }
 
     .topic {
+
         display: flex;
+
     }
 
     /* CATÁLOGO */
@@ -523,16 +533,38 @@ main h2 {
 
     /* LAYOUT */
     .container {
+
         max-width: 1340px;
+
     }
 
     /* PRINCIPAL */
     main h1 {
+
         font-size: 6rem;
+
     }
 
     main h2 {
+
         font-size: 2rem;
+
+    }
+
+    /* DESTAQUE */
+
+    #hero img {
+
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+
+    }
+
+    #hero {
+
+        margin-left: 25px;
+
     }
 
 }
