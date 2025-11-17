@@ -39,6 +39,8 @@ body {
 
 }
 
+
+
 .layout {
 
     margin: auto;
@@ -65,6 +67,7 @@ body {
 
 }
 
+
 /* ------ FIM DO LAYOUT ------ */
 
 /* ------ SMARTPHONE LANDSCAPE ------ */
@@ -87,39 +90,55 @@ body {
 
     }
 
-}
+    /* DESTAQUE */
+    #destaque {
 
-/* DESTAQUE */
-#detaque {
+        padding: 50px 0px;
 
-    padding: 50px 0px;
+    }
 
-}
+    #destaque .container {
 
-#destaque .container {
+        flex-direction: row;
+        align-items: center;
 
-    flex-direction: row;
-    align-items: center;
+    }
 
-}
+    #hero {
 
-#hero {
+        text-align: left;
 
-    text-align: left;
+    }
 
-}
+    #hero img {
 
-#hero img {
+        width: 200px;
+        height: 200px;
+        margin: 0px 30px 0px 0px;
 
-    width: 200px;
-    height: 200px;
-    margin: 0px 30px 0px 0px;
+    }
 
-}
+    .topic {
 
-.topic {
+        margin-top: 20px;
 
-    margin-top: 20px;
+    }
+
+
+    /* EVENTO */
+    #youtube {
+
+        margin-left: 80px;
+
+    }
+
+    /* CARDS */
+    #produtos .container {
+
+        margin-left: 130px;
+
+    }
+
 
 }
 
@@ -256,6 +275,11 @@ main h2 {
 
 }
 
+#hero {
+    justify-content: center;
+    margin: 0 auto;
+}
+
 #hero img {
 
     width: 250px;
@@ -284,6 +308,8 @@ main h2 {
 .topic {
 
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 15px;
 
 }
 
@@ -424,6 +450,22 @@ main h2 {
         font-size: 1.5rem;
     }
 
+    /* EVENTO */
+    #youtube iframe {
+
+        display: flex;
+        height: 290px;
+        width: 500px;
+
+    }
+
+    /* CARTÃO */
+    #produtos .container {
+
+        margin-left: 190px;
+
+    }
+
 }
 
 /* ------ FIM DO TABLET PORTRAIT ------ */
@@ -504,9 +546,9 @@ main h2 {
 
     #hero img {
 
-        width: 400px;
-        height: 400px;
-        
+        width: 350px;
+        height: 350px;
+
     }
 
     .hero-text h2 {
@@ -520,8 +562,6 @@ main h2 {
         display: flex;
 
     }
-
-    /* CATÁLOGO */
 
 }
 
@@ -552,18 +592,33 @@ main h2 {
     }
 
     /* DESTAQUE */
+    #destaque .container {
 
-    #hero img {
-
-        margin-left: 25%;
-        width: 400px;
-        height: 400px;
+        flex-direction: row;
+        display: flex;
 
     }
 
-    #hero {
+    #hero img {
 
-        margin-left: 25px;
+        margin-right: 40px;
+
+    }
+
+    /* EVENTO */
+    #evento .container {
+
+        flex-direction: row;
+        display: flex;
+
+    }
+
+    /* CARDS */
+    #produtos .container {
+
+        flex-direction: row;
+        text-align: center;
+        color: white;
 
     }
 
