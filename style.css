@@ -28,7 +28,7 @@
 
 body {
 
-    font-family: "Open Sans", "BB H Sans Bogle&family";
+    font-family: "Open Sans";
 
 }
 
@@ -64,6 +64,21 @@ body {
 .btn:hover {
 
     color: var(--azulClaro);
+
+}
+
+.btn2 {
+
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    font-family: "Open Sans";
+    text-shadow:
+        0 0 15px var(--azulClaro),
+        0 0 15px var(--azulClaro),
+        0 0 15px var(--azulClaro),
+        0 0 15px var(--azulClaro);
 
 }
 
@@ -386,6 +401,12 @@ main h2 {
 
 }
 
+.btn2 {
+
+    margin-top: 40px;
+
+}
+
 /* Cartão */
 .card {
 
@@ -544,22 +565,36 @@ main h2 {
 
     }
 
+    #destaque .container {
+
+        flex-direction: row;
+        display: flex;
+
+    }
+
     #hero img {
 
         width: 350px;
         height: 350px;
+        margin-right: 40px;
 
     }
 
-    .hero-text h2 {
+    /* EVENTO */
+    #evento .container {
 
-        font-size: 2rem;
-
-    }
-
-    .topic {
-
+        flex-direction: row;
         display: flex;
+
+    }
+
+    /* CARDS */
+    #produtos .container {
+
+        flex-direction: row;
+        text-align: center;
+        color: white;
+        margin: 0 auto;
 
     }
 
@@ -619,6 +654,7 @@ main h2 {
         flex-direction: row;
         text-align: center;
         color: white;
+        margin: 0 auto;
 
     }
 
