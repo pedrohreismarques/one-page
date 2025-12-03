@@ -572,6 +572,33 @@ main h2 {
     main {
         height: 80vh;
     }
+
+    /* EVENTO */
+    #youtube iframe {
+
+        margin-left: 150px;
+
+    }
+
+    /* CARTÃO */
+    #produtos .container {
+
+    margin-left: 310px;
+
+    }
+
+    #produtos .card {
+
+        margin-bottom: 30px;
+
+    }
+
+    #produtos .btn2 {
+
+        margin-left: -330px;
+
+    }
+
 }
 
 /* ------ FIM DO TABLET LANDSCAPE ------ */
@@ -656,13 +683,32 @@ main h2 {
 
     }
 
+    #youtube iframe {
+
+        margin-right: 150px;
+
+    }
+
     /* CARDS */
+    
+
     #produtos .container {
 
-        flex-direction: row;
         text-align: center;
         color: white;
         margin: 0 auto;
+
+    }
+
+    #produtos .container .card {
+
+        flex-direction: row;
+
+    }
+
+    #produtos .btn-produtos {
+
+        display: none;
 
     }
 
@@ -705,24 +751,6 @@ main h2 {
     #hero img {
 
         margin-right: 40px;
-
-    }
-
-    /* EVENTO */
-    #evento .container {
-
-        flex-direction: row;
-        display: flex;
-
-    }
-
-    /* CARDS */
-    #produtos .container {
-
-        flex-direction: row;
-        text-align: center;
-        color: white;
-        margin: 0 auto;
 
     }
 
