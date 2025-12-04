@@ -150,7 +150,7 @@ body {
     /* CARDS */
     #produtos .container {
 
-        margin-left: 130px;
+        margin-left: 140px;
 
     }
 
@@ -455,6 +455,20 @@ main h2 {
     background-color: var(--roxoForte);
 }
 
+#produtos h3 {
+
+        color: #ffff;
+        font-size: 2.2rem;
+        text-align: center;
+        text-shadow:
+        0 0 15px var(--azulClaro),
+        0 0 15px var(--azulClaro),
+        0 0 15px var(--azulClaro),
+        0 0 15px var(--azulClaro);
+
+
+    }
+
 #produtos .container {
 
     flex-direction: column;
@@ -549,12 +563,6 @@ main h2 {
 
     }
 
-    #produtos .btn2 {
-
-        margin-left: -180px;
-
-    }
-
 }
 
 /* ------ FIM DO TABLET PORTRAIT ------ */
@@ -573,6 +581,14 @@ main h2 {
         height: 80vh;
     }
 
+    /* DESTAQUE */
+    #hero img {
+
+        width: 300px;
+        height: 300px;
+
+    }
+
     /* EVENTO */
     #youtube iframe {
 
@@ -583,19 +599,7 @@ main h2 {
     /* CARTÃO */
     #produtos .container {
 
-    margin-left: 310px;
-
-    }
-
-    #produtos .card {
-
-        margin-bottom: 30px;
-
-    }
-
-    #produtos .btn2 {
-
-        margin-left: -330px;
+        margin-left: 320px;
 
     }
 
@@ -683,32 +687,35 @@ main h2 {
 
     }
 
+    #catalogo-text span {
+
+        display: block
+
+    }
+
+    #qrcode {
+
+        display: flex;
+        height: 250px;
+        margin-right: 50px;
+
+    }
+
     #youtube iframe {
 
-        margin-right: 150px;
+        margin-right: 50px;
 
     }
 
     /* CARDS */
-    
+
 
     #produtos .container {
 
+        flex-direction: row;
         text-align: center;
         color: white;
         margin: 0 auto;
-
-    }
-
-    #produtos .container .card {
-
-        flex-direction: row;
-
-    }
-
-    #produtos .btn-produtos {
-
-        display: none;
 
     }
 
