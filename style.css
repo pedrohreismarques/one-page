@@ -528,6 +528,74 @@ main h2 {
 
 }
 
+/* RODAPÉ */
+address {
+
+    padding: 35px 50px;
+    background: var(--roxoClaro);
+    background-size: cover;
+    background-position: center;
+    color: black;
+
+}
+
+address a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+address img {
+
+    padding-top: 15px;
+    width: 40px;
+
+}
+
+#googleMaps {
+
+    display: none;
+
+}
+
+.container #contato {
+
+    margin-left: -10px;
+
+}
+
+.container #endereco {
+
+    margin-left: 30px;
+
+}
+
+footer {
+
+    display: flex;
+    padding: 20px 60px;
+    background-color: var(--roxoForte);
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+#copyright img {
+
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+
+}
+
+#copyright p {
+
+    margin-bottom: 20px;
+
+}
+
 /* ------ FIM DO SMARTPHONE PORTRAIT ------ */
 
 /* ------ TABLET PORTRAIT ------ */
@@ -719,6 +787,23 @@ main h2 {
 
     }
 
+    /* RODAPÉ */
+
+    .container #endereco {
+
+        margin-left: -100px;
+
+    }
+
+    #googleMaps {
+
+        display: inline;
+        justify-content: space-around;
+
+    }
+
+
+
 }
 
 
@@ -758,6 +843,19 @@ main h2 {
     #hero img {
 
         margin-right: 40px;
+
+    }
+
+    footer {
+
+        font-size: 1.0rem;
+
+    }
+
+    #copyright img {
+
+        width: 80px;
+        height: 80px;
 
     }
 
